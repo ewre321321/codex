@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnovatif Emlak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">İnovatif Emlak</div>
+        <nav>
+            <a href="#listings">İlanlar</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hayalinizdeki Evi Bulun</h1>
+        <p>Geniş portföyümüzden size en uygun emlağı seçin.</p>
+        <input type="text" id="search" placeholder="Şehir veya ilçe ara..." />
+    </section>
+
+    <section id="listings" class="listings"></section>
+
+    <section id="contact" class="contact">
+        <h2>Bize Ulaşın</h2>
+        <form>
+            <input type="text" placeholder="Adınız" required />
+            <input type="email" placeholder="E-posta" required />
+            <textarea placeholder="Mesajınız" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 İnovatif Emlak. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="modal-close" class="modal-close">&times;</span>
+            <img id="modal-image" src="" alt="Property image" />
+            <h3 id="modal-title"></h3>
+            <p id="modal-location"></p>
+            <p id="modal-price"></p>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

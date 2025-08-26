@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Modern Daire",
+        "location": "İstanbul, Kadıköy",
+        "price": "₺2.500.000",
+        "image": "https://via.placeholder.com/400x300?text=Daire",
+        "description": "Kadıköy merkezde, ulaşımı kolay, ferah daire."
+    },
+    {
+        "id": 2,
+        "title": "Geniş Bahçeli Villa",
+        "location": "Ankara, Çankaya",
+        "price": "₺5.750.000",
+        "image": "https://via.placeholder.com/400x300?text=Villa",
+        "description": "Çankaya'da doğa ile iç içe, lüks villa."
+    },
+    {
+        "id": 3,
+        "title": "Şehir Manzaralı Ofis",
+        "location": "İzmir, Konak",
+        "price": "₺3.200.000",
+        "image": "https://via.placeholder.com/400x300?text=Ofis",
+        "description": "Konak'ta geniş ve modern ofis alanı."
+    }
+]
